@@ -15,9 +15,9 @@ this way, we got a little command and control work flow between the processes us
 each unregular event comming from a certain process, make is debugger process, act as follow.
 
 
-folders description :
+files description :
 
 - dll-injector - this is basically the malware and the unpacked child process.
 - mydll - this is the injected dll.
 - packer - this is the parent process. 
-- infected exe - this is just hello world sample process to infect (it as a while(true) loop to avoid termination).
+- host.exe - this is just hello world sample process to infect (it as a while(true) loop to avoid termination).
